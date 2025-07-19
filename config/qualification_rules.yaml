@@ -1,0 +1,220 @@
+# Ted Sink Law Lead Qualification Rules
+# Defines criteria for qualifying potential clients and cases
+
+qualification_criteria:
+  geographic:
+    required_states:
+      - "South Carolina"
+      - "Georgia"
+    disqualifying_states:
+      - "Florida"
+      - "North Carolina"
+      - "Tennessee"
+      - "Alabama"
+      - "Virginia"
+      - "All other states"
+    description: "Must be resident of South Carolina or Georgia"
+
+  case_type:
+    required: "Personal injury cases only"
+    disqualifying_types:
+      - "criminal"
+      - "family law"
+      - "business law"
+      - "real estate"
+      - "estate planning"
+      - "bankruptcy"
+      - "immigration"
+    description: "Must be personal injury case"
+
+  timeline:
+    required: "Within statute of limitations"
+    disqualifying: "Outside statute of limitations"
+    description: "Case must be within legal time limits"
+
+  damages:
+    required: "Significant damages or medical treatment"
+    disqualifying: "Minimal or no damages"
+    description: "Must have meaningful damages to pursue"
+
+  liability:
+    required: "Clear liability or strong case"
+    disqualifying: "Unclear liability or weak case"
+    description: "Must have reasonable chance of success"
+
+emergency_indicators:
+  critical:
+    - "life-threatening"
+    - "critical condition"
+    - "emergency room"
+    - "ambulance"
+    - "severe bleeding"
+    - "unconscious"
+    - "not breathing"
+    - "heart attack"
+    - "stroke"
+    - "major trauma"
+
+  urgent:
+    - "serious injury"
+    - "broken bones"
+    - "head injury"
+    - "hospital"
+    - "surgery"
+    - "immediate"
+    - "right now"
+    - "asap"
+    - "urgent"
+
+  high_priority:
+    - "severe pain"
+    - "significant injury"
+    - "medical bills"
+    - "lost wages"
+    - "serious accident"
+    - "major damages"
+
+high_priority_indicators:
+  - "wrongful death"
+  - "fatal"
+  - "death"
+  - "serious injury"
+  - "permanent disability"
+  - "significant medical bills"
+  - "lost wages"
+  - "pain and suffering"
+  - "emotional distress"
+  - "truck accident"
+  - "motorcycle accident"
+  - "pedestrian accident"
+
+disqualification_keywords:
+  geographic:
+    - "florida"
+    - "north carolina"
+    - "tennessee"
+    - "alabama"
+    - "virginia"
+
+  case_type:
+    - "divorce"
+    - "custody"
+    - "criminal"
+    - "business"
+    - "real estate"
+    - "bankruptcy"
+
+  timeline:
+    - "years ago"
+    - "old case"
+    - "statute expired"
+    - "too late"
+
+  damages:
+    - "minor"
+    - "small"
+    - "minimal"
+    - "no injury"
+    - "no damage"
+
+practice_areas:
+  handled:
+    - name: "Car Accidents"
+      keywords: ["car accident", "auto accident", "vehicle collision", "car crash", "automobile accident"]
+      priority: 1
+    - name: "Truck Accidents"
+      keywords: ["truck accident", "semi-truck", "commercial truck", "18-wheeler", "big rig"]
+      priority: 1
+    - name: "Motorcycle Accidents"
+      keywords: ["motorcycle accident", "bike accident", "motorcycle crash", "motorcycle injury"]
+      priority: 1
+    - name: "Workers' Compensation"
+      keywords: ["workers comp", "workers compensation", "workplace injury", "on-the-job injury", "work injury"]
+      priority: 1
+    - name: "Wrongful Death"
+      keywords: ["wrongful death", "fatal accident", "death claim", "survival action"]
+      priority: 1
+    - name: "Premises Liability"
+      keywords: ["premises liability", "slip and fall", "unsafe property", "property injury"]
+      priority: 2
+    - name: "Ride-Share Accidents"
+      keywords: ["uber accident", "lyft accident", "ride share", "rideshare accident"]
+      priority: 2
+    - name: "Medical Malpractice"
+      keywords: ["medical malpractice", "medical negligence", "doctor error", "hospital error"]
+      priority: 2
+    - name: "Nursing Home Abuse"
+      keywords: ["nursing home abuse", "nursing home neglect", "elder abuse", "assisted living abuse"]
+      priority: 2
+    - name: "Slip and Fall"
+      keywords: ["slip and fall", "trip and fall", "fall accident", "slip injury"]
+      priority: 2
+    - name: "Construction Accidents"
+      keywords: ["construction accident", "construction injury", "construction site", "workplace construction"]
+      priority: 2
+    - name: "Pedestrian Accidents"
+      keywords: ["pedestrian accident", "hit by car", "walking accident", "crossing accident"]
+      priority: 2
+    - name: "Bicycle Accidents"
+      keywords: ["bicycle accident", "bike accident", "cycling accident", "bike crash"]
+      priority: 3
+    - name: "Dog Bites"
+      keywords: ["dog bite", "animal attack", "pet injury", "dog attack"]
+      priority: 3
+    - name: "Product Liability"
+      keywords: ["product liability", "defective product", "product injury", "unsafe product"]
+      priority: 3
+
+  not_handled:
+    - name: "Criminal Defense"
+      keywords: ["criminal", "criminal defense", "arrest", "charges", "criminal case"]
+    - name: "Family Law"
+      keywords: ["divorce", "custody", "family law", "child support", "alimony"]
+    - name: "Business Law"
+      keywords: ["business law", "corporate", "contracts", "business formation", "LLC"]
+    - name: "Real Estate"
+      keywords: ["real estate", "property law", "closing", "title", "mortgage"]
+    - name: "Estate Planning"
+      keywords: ["estate planning", "will", "trust", "probate", "inheritance"]
+    - name: "Bankruptcy"
+      keywords: ["bankruptcy", "debt relief", "chapter 7", "chapter 13", "foreclosure"]
+
+ideal_client_profile:
+  case_types: "Personal injury cases with clear liability and damages"
+  geographic_area: "South Carolina and Georgia residents"
+  damages: "Significant medical treatment needs or inadequate insurance offers"
+  timeline: "Within statute of limitations"
+  motivation: "Seeking fair compensation and justice"
+
+disqualifying_factors:
+  - "Cases outside South Carolina or Georgia"
+  - "Non-personal injury matters"
+  - "Cases with minimal damages"
+  - "Unclear liability situations"
+  - "Cases outside statute of limitations"
+  - "Conflict of interest situations"
+
+critical_intake_information:
+  - "Client contact details"
+  - "Incident circumstances and date"
+  - "Injury details and medical treatment status"
+  - "Insurance information"
+  - "Previous legal representation"
+  - "Timeline considerations"
+
+referral_suggestions:
+  criminal:
+    - "Criminal defense attorney"
+    - "Public defender's office"
+  family_law:
+    - "Family law attorney"
+    - "Divorce attorney"
+  business_law:
+    - "Business law attorney"
+    - "Corporate attorney"
+  real_estate:
+    - "Real estate attorney"
+    - "Property law attorney"
+  default:
+    - "Local attorney directory"
+    - "State bar association referral service"

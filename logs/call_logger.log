@@ -1,0 +1,24 @@
+2025-07-19 01:25:06,727 - src.utils.call_logger - INFO - Call started - Session ID: demo_qualified_001
+2025-07-19 01:25:06,727 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_qualified_001
+2025-07-19 01:25:06,728 - src.utils.call_logger - INFO - Call ended - Session ID: demo_qualified_001, Outcome: appointment_scheduled, Duration: 0s
+2025-07-19 01:25:06,728 - src.utils.call_logger - INFO - Call started - Session ID: demo_not_qualified_001
+2025-07-19 01:25:06,728 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_not_qualified_001
+2025-07-19 01:25:06,729 - src.utils.call_logger - INFO - Call ended - Session ID: demo_not_qualified_001, Outcome: qualified_no_appointment, Duration: 0s
+2025-07-19 01:25:06,729 - src.utils.call_logger - INFO - Call started - Session ID: demo_emergency_001
+2025-07-19 01:25:06,729 - src.utils.call_logger - INFO - Call ended - Session ID: demo_emergency_001, Outcome: emergency_handled, Duration: 0s
+2025-07-19 01:25:06,729 - src.utils.call_logger - INFO - Call started - Session ID: demo_uncertain_001
+2025-07-19 01:25:06,730 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_uncertain_001
+2025-07-19 01:25:06,731 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_uncertain_001
+2025-07-19 01:25:06,731 - src.utils.call_logger - INFO - Call ended - Session ID: demo_uncertain_001, Outcome: qualified_no_appointment, Duration: 0s
+2025-07-19 01:26:57,299 - src.utils.call_logger - INFO - Call started - Session ID: demo_qualified_001
+2025-07-19 01:26:57,299 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_qualified_001
+2025-07-19 01:26:57,300 - src.utils.call_logger - INFO - Call ended - Session ID: demo_qualified_001, Outcome: appointment_scheduled, Duration: 0s
+2025-07-19 01:26:57,301 - src.utils.call_logger - INFO - Call started - Session ID: demo_not_qualified_001
+2025-07-19 01:26:57,301 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_not_qualified_001
+2025-07-19 01:26:57,302 - src.utils.call_logger - INFO - Call ended - Session ID: demo_not_qualified_001, Outcome: qualified_no_appointment, Duration: 0s
+2025-07-19 01:26:57,302 - src.utils.call_logger - INFO - Call started - Session ID: demo_emergency_001
+2025-07-19 01:26:57,303 - src.utils.call_logger - INFO - Call ended - Session ID: demo_emergency_001, Outcome: emergency_handled, Duration: 0s
+2025-07-19 01:26:57,303 - src.utils.call_logger - INFO - Call started - Session ID: demo_uncertain_001
+2025-07-19 01:26:57,303 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_uncertain_001
+2025-07-19 01:26:57,304 - src.utils.call_logger - INFO - Interaction logged - Session ID: demo_uncertain_001
+2025-07-19 01:26:57,304 - src.utils.call_logger - INFO - Call ended - Session ID: demo_uncertain_001, Outcome: qualified_no_appointment, Duration: 0s

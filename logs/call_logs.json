@@ -1,0 +1,50 @@
+{
+  "demo_uncertain_001": {
+    "session_id": "demo_uncertain_001",
+    "start_time": "2025-07-19T01:26:57.303754",
+    "end_time": "2025-07-19T01:26:57.304797",
+    "client_info": {
+      "phone": null,
+      "email": null,
+      "location": null
+    },
+    "conversation_history": [
+      {
+        "timestamp": "2025-07-19T01:26:57.303939",
+        "client_message": "I think I might need legal help, but I'm not sure. Something happened at work and I got hurt.",
+        "ai_response": "Thank you for sharing your situation with me. I understand this must be a difficult time for you We handle cases like yours and have helped many people in similar situations. Our consultation is completely free with no obligation, and we don't charge any fees unless we win your case. I can schedule you for a consultation today - we guarantee you'll speak with an attorney or case manager the same day. Would you like me to schedule your free consultation now?"
+      },
+      {
+        "timestamp": "2025-07-19T01:26:57.304591",
+        "client_message": "It was a construction accident in Columbia, South Carolina. I fell from scaffolding and broke my arm. I've been getting workers comp but it's not enough.",
+        "ai_response": "Thank you for sharing your situation with me. I understand this must be a difficult time for you We handle cases like yours and have helped many people in similar situations. Our consultation is completely free with no obligation, and we don't charge any fees unless we win your case. I can schedule you for a consultation today - we guarantee you'll speak with an attorney or case manager the same day. Would you like me to schedule your free consultation now?"
+      }
+    ],
+    "qualification_result": {
+      "status": "qualified",
+      "priority": "low",
+      "practice_area": null,
+      "reasoning": [
+        "Location not provided - will need to confirm during consultation",
+        "Case type not specified - will need to determine during consultation",
+        "Incident date not provided - will need to confirm during consultation",
+        "Injury and treatment information not provided - will need to assess during consultation"
+      ],
+      "next_steps": [
+        "Free consultation scheduling",
+        "Case evaluation and assessment",
+        "Detailed case review",
+        "Collect complete case information",
+        "Explain firm's contingency fee structure",
+        "Discuss same-day response guarantee"
+      ],
+      "disqualification_reason": null,
+      "referral_suggestions": null
+    },
+    "appointment_scheduled": false,
+    "emergency_handled": false,
+    "call_duration": 0,
+    "outcome": "qualified_no_appointment",
+    "quality_score": 35.0
+  }
+}
